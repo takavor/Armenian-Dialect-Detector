@@ -1,6 +1,6 @@
 # Armenian Dialect Detector
 
-A fun little NLP project where I train different classifiers to determine whether a given text conforms to the Eastern Armenian or Western Armenian dialect. For training/testing data, random articles for both dialects were collected from Wikipedia using the Wikipedia API. Character-level $n$-grams were used for tokenization, with $n \in [3, 4, 5]$.
+A fun little NLP project where I train different classifiers to determine whether a given text conforms to the Eastern Armenian or Western Armenian dialect. For training/testing data, random articles for both dialects were collected from Wikipedia using the Wikipedia API. Character-level $n$-grams were used for tokenization, with $n \in [3, 4, 5]$. Feature extraction was done by TF-IDF vectorization.
 
 ## Installation
 
