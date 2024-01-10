@@ -45,3 +45,7 @@ $n=5$:
 ## Some thoughts
 
 In my opinion, character-level $n$-grams were a good strategy for extracting features from the data. A huge part of the orthographical differences between both dialects stem from different orthographies for words that would otherwise be written the same. This is due to the fact that Eastern Armenian orthography (which is mostly present in Armenia) underwent a reform during the Soviet era, whereas Western Armenian (largely a diasporic language) retained classical orthography. As a result, words in both dialects sometimes differ by 3-5 consecutive letters in their orthography. Of course, this reasoning does not include grammatical differences between both dialects, which are largely prevalent.
+
+## Future ideas
+
+It would be interesting to explore this problem using Eastern Armenian sentences which are in pre-reform (classical) orthography like Western Armenian in hopes of capturing grammatical differences.
